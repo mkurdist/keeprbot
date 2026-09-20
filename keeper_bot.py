@@ -84,8 +84,8 @@ def main():
         for case_id in active_cases_to_monitor:
             process_case(case_id)
             
-        logger.info("Scan complete. Sleeping for 1 hour...\n")
-        time.sleep(3600)  # اجرای حلقه هر ۱ ساعت یک‌بار
+        logger.info("Scan complete. Sleeping for 5 minutes...\n")
+        time.sleep(300)  # اجرای حلقه هر ۵ دقیقه یک‌بار
 
 if __name__ == "__main__":
     main()
